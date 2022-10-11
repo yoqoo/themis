@@ -1,4 +1,4 @@
-main.py import json
+import json
 
 from docx.shared import Inches
 from selenium import webdriver
@@ -8,7 +8,7 @@ from docx import Document
 import pyautogui
 from plugin import Plugins
 
-# 参考文档：https://www.justdopython.com/2020/03/19/python-python-docs/
+# 参考文档：https://www.justdopythonmain.py.com/2020/03/19/python-python-docs/
 
 chrome_options = Options()
 chrome_options.add_experimental_option("excludeSwitches", ['enable-automation'])
